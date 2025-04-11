@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/relative/synchrony.git"
+    "url": "git+ssh://git@github.com/kumchick2055/synchrony.git"
   },
   "keywords": [
     "deobfuscator"
@@ -22,7 +22,7 @@
   "author": "relative <hi@relative.im>",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/relative/synchrony/issues"
+    "url": "https://github.com/kumchick2055/synchrony/issues"
   },
   "homepage": "https://github.com/relative/synchrony#readme",
   "devDependencies": {
