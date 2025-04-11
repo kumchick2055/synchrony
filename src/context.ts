@@ -101,7 +101,7 @@ export default class Context {
   removeGarbage: boolean = true
   transformers: InstanceType<typeof Transformer>[]
 
-  enableLog: boolean = true
+  enableLog: boolean = false
 
   scopeManager: eslintScope.ScopeManager
   hash: number = 0
@@ -124,7 +124,7 @@ export default class Context {
 
   public log(message?: any, ...optionalParams: any[]) {
     if (!this.enableLog) return
-    console.log(message, ...optionalParams)
+    // console.log(message, ...optionalParams)
   }
 
   private buildTransformerList(

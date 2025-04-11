@@ -164,7 +164,7 @@ export class Deobfuscator {
     )
 
     for (const t of context.transformers) {
-      console.log('Running', t.name, 'transformer')
+      // console.log('Running', t.name, 'transformer')
       await t.transform(context)
     }
 
@@ -184,7 +184,7 @@ export class Deobfuscator {
       )
       context.hash = sourceHash(source)
       for (const t of context.transformers) {
-        console.log('(rename) Running', t.name, 'transformer')
+        // console.log('(rename) Running', t.name, 'transformer')
         await t.transform(context)
       }
     }

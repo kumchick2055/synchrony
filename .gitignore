@@ -125,3 +125,5 @@ dist/
 scratch/
 !scratch/config.js
 !scratch/index.js
+
+package-lock.json
